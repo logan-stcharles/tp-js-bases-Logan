@@ -24,3 +24,7 @@ function saluer(prenom)  {
 }
 
 console.log(saluer("Logan"));
+
+
+const notes = [12, 15, 9];
+console.log(notes.max); // Affiche 3
