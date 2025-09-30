@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline; 
+    text-decoration: none;
+}
+
+nav img {
+    width: 30%;
+    height: 50%;
+}
+
+.button_nav {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left: 1.3rem;
+}
