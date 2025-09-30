@@ -9,13 +9,18 @@ if (age < 13) {
     console.log("Bienvenue dans l'espace adulte.");
 }
 
-let produit_table_de_7 = 0;
 
-for (let produit_table_de_7 = 0; produit_table_de_7 < 10;) {
+
+for (let produit_table_de_7 = 1; produit_table_de_7 < 11; produit_table_de_7++) {
     
     let resultat = produit_table_de_7 * 7; 
     console.log("Calcul de " + produit_table_de_7 + " fois 7.")
     console.log(resultat);  
-    produit_table_de_7 = produit_table_de_7 + 1;
 }
 
+function saluer(prenom)  {
+    return ("Bonjour " + prenom + ", Comment vas-tu?"); 
+    
+}
+
+console.log(saluer("Logan"));
